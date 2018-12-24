@@ -1,0 +1,28 @@
+body{
+    font-family: 'Maison Neue', sans-serif;
+}
+.nav-logo{
+    font-weight: bold;
+    color: #3f46ad !important;
+    margin: auto 15px;
+    
+}
+.navbar{
+    background: #fff !important;
+}
+.carousel-inner{
+    max-height: calc(100vh - 190px) !important;
+}
+.input-div{
+    margin:auto !important;
+    background: #444;
+}
+.carousel-caption{
+    bottom: calc(100vh - 604px);
+    z-index:0;
+    padding: 20px 40px 20px 40px
+
+}
+.topnav-right{
+    float: right;
+}
