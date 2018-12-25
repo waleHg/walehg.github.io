@@ -1,5 +1,5 @@
 body{
-    font-family: 'Maison Neue', sans-serif;
+    font-family: 'Apercu Pro', sans-serif;
 }
 .nav-logo{
     font-weight: bold;
@@ -9,20 +9,21 @@ body{
 }
 .navbar{
     background: #fff !important;
+    border-bottom: 0.75px solid #FED100;
+    width: 100%;
 }
-.carousel-inner{
-    max-height: calc(100vh - 190px) !important;
-}
-.input-div{
-    margin:auto !important;
-    background: #444;
-}
-.carousel-caption{
-    bottom: calc(100vh - 604px);
-    z-index:0;
-    padding: 20px 40px 20px 40px
 
+.navbar-light .navbar-toggler {
+
+ border-color: #fff !important;
+ outline: none !important;
 }
-.topnav-right{
-    float: right;
+.navbar ul{
+    margin-left: calc(100% - 400px);
+}
+.active-point{
+margin-bottom: 20px;
+}
+ul li{
+    margin-right: 35px;
 }
