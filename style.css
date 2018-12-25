@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Apercu Pro";
+    src: url("apercu-bold-pro.ttf") format("ttf"),
+         url("apercu-light-pro") format("ttf"),
+         url("apercu-bold-pro") format("ttf");
+  }
 body{
     font-family: 'Apercu Pro', sans-serif;
     color: #646464;
@@ -96,8 +102,8 @@ h3{
             box-sizing: border-box;
             background: #0c9a9a;
             color: #fff;
-            /* grid-column-start: auto;
-            grid-row-start: auto; */
+            grid-column-start: auto;
+            grid-row-start: auto;
             color: #fff;
             background-color:#C4C4C4;
             background-size: cover;
@@ -106,21 +112,11 @@ h3{
             transition: transform 0.3s ease-in-out;
             transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
             cursor: pointer;
-            /* counter-increment: item-counter; */
-           
                 grid-row-end: span 2;
             
           }
           
-          .item:after {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background-color: black;
-            opacity: 0.3;
-            transition: opacity 0.3s ease-in-out;
-          }
+ 
           .item:hover {
             -webkit-transform: scale(1.05);
                     transform: scale(1.05);
@@ -139,7 +135,6 @@ h3{
             grid-column-end: auto;
           }
           .item__details {
-            margin-top:-1000px;
             z-index: 0;
             padding: 15px;
             color: #828282;
