@@ -1,16 +1,20 @@
+/* Normal */
 @font-face {
-    font-family: Cera;
-    src: local("Cera"),
-         url(Cera.ttf) format('ttf');
-  }
-  @font-face {
-    font-family: Cera;
-    src: url(Cera-Regular.ttf) format('ttf');
-  }
-  @font-face {
-    font-family: Cera;
-    src: url(Cera-Bold.ttf) format('ttf');
-  }
+    font-family: 'Cera';
+    src: url('Cera-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Cera';
+    src:url('Cera-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
 body{
     font-family: 'Cera', sans-serif;
     color: #646464;
