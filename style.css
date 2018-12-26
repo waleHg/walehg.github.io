@@ -1,4 +1,10 @@
-
+/* Your local CSS File */
+@font-face {
+    font-family: 'Cera';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Cera-Regular'), url(Cera-Regular.ttf) format('truetype');
+}
 body{
     font-family: 'Cera', sans-serif;
     color: #646464;
