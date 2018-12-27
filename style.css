@@ -95,7 +95,9 @@ ul li {
         opacity: 1;
     }
 }
-
+.error{
+    font-size: 80px;
+}
 .nav-logo {
     font-weight: bold;
     color: #3f46ad !important;
