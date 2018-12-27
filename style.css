@@ -242,13 +242,22 @@ ul li {
 }
 
 .item--medium {
+    background-image: url('recipe.png');
     grid-row-end: span 2;
 }
 
 .item--large {
+    background-image: url('halawee.png');
     grid-row-end: span 3;
-}
+   
 
+}
+.item--largeb {
+    background-image: url('ownerdirect.png');
+    grid-row-end: span 3;
+   
+
+}
 .item--full {
     grid-column-end: auto;
 }
