@@ -350,7 +350,7 @@ ul li {
 
 @media only screen and (max-width: 991px) {
     ul li {
-        font-size: 30px;
+        font-size: 24px;
         margin: auto;
     }
     h2 {
@@ -416,7 +416,7 @@ ul li {
         margin-bottom: 80px;
     }
     .resume-bg {
-        background-color: #FDFDFD;
+        background-color: #f5f5f5;
         height: 20%;
         padding: 25px 32px 25px 25px;
         margin: 15px 15px -30px 12px;
