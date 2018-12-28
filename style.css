@@ -125,12 +125,17 @@ ul li {
 
 .desc-fix {
     margin-top: 20px;
+    line-height: 30px;
 }
 
 .desc {
     font-size: 18px;
     color: #404040;
 }
+.desc a{
+   line-height: 30px;
+}
+
 
 .footer {
     background: #fff !important;
