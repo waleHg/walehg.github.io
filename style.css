@@ -201,7 +201,27 @@ ul li {
     display: none;
     padding: 2rem;
 }
-
+.show { 
+    padding: .5vw;
+    font-size: 0;
+    display: -ms-flexbox;
+    -webkit-flex-flow: row wrap; 
+    flex-flow: row wrap; 
+    display: -webkit-box;
+    display: flex;
+  }
+  .show div { 
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto; 
+    width: 300px; 
+    margin: .5vw; 
+  }
+  .show div img { 
+    width: 100%; 
+    height: auto; 
+  }
+ 
 .grid {
     display: grid;
     grid-gap: 30px;
