@@ -453,12 +453,12 @@ ul li {
     }
    
 }
-/* space between start of footer and project links on ipad */
+/* space between start of footer and project links on ipad
 @media only screen and (max-width: 768px) and (min-width: 574px) {
 .project-links {
-    margin-top: auto;
+   
 }
-}
+} */
 
 
 @media only screen and (max-width: 574px) {
