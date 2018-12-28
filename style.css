@@ -20,7 +20,7 @@
 
 body {
     font-family: 'Cera', sans-serif;
-    color: #646464;
+    color: #404040;
 }
 
 h2 {
@@ -31,7 +31,7 @@ h2 {
 
 a {
     color: inherit;
-    padding-bottom: 7px;
+    padding-bottom: 9px;
 }
 
 a:active,
@@ -46,7 +46,7 @@ a:hover {
 }
 
 h3 {
-    color: #646464;
+    color: #404040;
     font-weight: bold;
 }
 
@@ -129,7 +129,7 @@ ul li {
 
 .desc {
     font-size: 18px;
-    color: #646464;
+    color: #404040;
 }
 
 .footer {
@@ -245,6 +245,15 @@ ul li {
     background-image: url('recipe.png');
     grid-row-end: span 2;
 }
+.item--mediumb {
+    background-image: url('neobank.png');
+    grid-row-end: span 2;
+}
+
+.item--mediumc {
+    background-image: url('halawee-checkout.png');
+    grid-row-end: span 2;
+}
 
 .item--large {
     background-image: url('halawee.png');
@@ -258,6 +267,7 @@ ul li {
    
 
 }
+
 .item--full {
     grid-column-end: auto;
 }
@@ -315,7 +325,7 @@ ul li {
 }
 
 .project-intro {
-    background-image: url('kcbg.svg');
+    background-image: url('kcbg.png');
     color: #fff;
     background-size: cover;
     background-position: center;
@@ -347,7 +357,7 @@ ul li {
 
 .text-content {
     text-align: justify;
-    color: #646464;
+    color: #404040;
     padding-left: 300px;
     padding-right: 300px;
     line-height: 30px;
@@ -382,7 +392,7 @@ ul li {
         margin-top: 35px;
     }
     .text-content {
-        color: #646464;
+        color: #404040;
         padding-left: 2px;
         padding-right: 2px;
         line-height: 30px;
@@ -402,7 +412,7 @@ ul li {
 
 @media only screen and (max-width: 1025px) {
     .text-content {
-        color: #646464;
+        color: #404040;
         padding-left: 2px;
         padding-right: 2px;
         line-height: 30px;
