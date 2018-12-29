@@ -122,6 +122,12 @@ ul li {
 .content-fix {
     padding-top: 72px;
 }
+.resume-bg {
+    background-color: #fdfdfd;
+    height: 20%;
+    padding: 25px 32px 25px 25px;
+    
+}
 
 .desc-fix {
     margin-top: 20px;
@@ -480,7 +486,7 @@ margin-top: 35px;
         margin-bottom: 80px;
     }
     .resume-bg {
-        background-color: #f5f5f5;
+        background-color: fdfdfd;
         height: 20%;
         padding: 25px 32px 25px 25px;
         margin: 30px 15px -20px 12px;
