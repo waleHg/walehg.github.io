@@ -95,9 +95,40 @@ ul li {
         opacity: 1;
     }
 }
-.error{
+
+input:focus {
+    border: 1px solid #FDE15B !important;
+    border-radius: 1px !important;
+    outline: 20px !important;
+}
+
+.btn {
+    color: #000 !important;
+    position: relative;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    background-color: #fde15b !important;
+    border: 1px solid rgb(243, 199, 2) !important;
+    border-radius: 2px !important;
+    border: none !important;
+    padding: 12px 12px 12px 12px !important;
+    background-position: 0 88%;
+    transition: 0.25s ease-in;
+}
+
+.btn:hover {
+    color: #FFFFFF !important;
+    background-color: #404040 !important;
+    transform: translateY(20%);
+    transition: 0.25s ease-in;
+}
+
+.error {
     font-size: 80px;
 }
+
 .nav-logo {
     font-weight: bold;
     color: #3f46ad !important;
@@ -122,11 +153,11 @@ ul li {
 .content-fix {
     padding-top: 72px;
 }
+
 .resume-bg {
     background-color: #fdfdfd;
     height: 20%;
     padding: 25px 32px 25px 25px;
-    
 }
 
 .desc-fix {
@@ -138,13 +169,16 @@ ul li {
     font-size: 18px;
     color: #404040;
 }
-.desc a{
-   line-height: 30px;
+
+.desc a {
+    line-height: 30px;
 }
-.about-fix{
+
+.about-fix {
     padding-top: 52px;
 }
-.fix{
+
+.fix {
     margin-top: 20px;
 }
 
@@ -154,9 +188,11 @@ ul li {
     margin-top: 150px;
     width: 100%;
 }
-.footer p{
+
+.footer p {
     font-size: 16px;
 }
+
 .footer-heading {
     color: #27282C;
     font-weight: bold;
@@ -174,7 +210,8 @@ ul li {
     font-size: 24px;
 }
 
-.h3-desc,.h4-desc {
+.h3-desc,
+.h4-desc {
     color: #FFFFFF;
     font-weight: bold;
 }
@@ -183,6 +220,7 @@ ul li {
     margin-bottom: 0px;
     color: #FFFFFF;
 }
+
 .p-small {
     font-size: 12px;
     margin-bottom: 0px;
@@ -201,17 +239,18 @@ ul li {
     background-size: 100% 88%;
 }
 
-.avatar{
-   width: 200px;
-   height: auto;
-   border-radius: 50%;
-   margin-bottom: 15px;
-   
+.avatar {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
 }
-.title{
+
+.title {
     color: #FED100;
- 
+    font-size: 14px;
 }
+
 .heading {
     color: #27282C;
     font-weight: bold;
@@ -222,27 +261,30 @@ ul li {
     display: none;
     padding: 2rem;
 }
-.show { 
+
+.show {
     padding: .5vw;
     font-size: 0;
     display: -ms-flexbox;
-    -webkit-flex-flow: row wrap; 
-    flex-flow: row wrap; 
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
     display: -webkit-box;
     display: flex;
-  }
-  .show div { 
+}
+
+.show div {
     -webkit-box-flex: auto;
     -ms-flex: auto;
-    flex: auto; 
-    width: 300px; 
-    margin: .5vw; 
-  }
-  .show div img { 
-    width: 100%; 
-    height: auto; 
-  }
- 
+    flex: auto;
+    width: 300px;
+    margin: .5vw;
+}
+
+.show div img {
+    width: 100%;
+    height: auto;
+}
+
 .grid {
     display: grid;
     grid-gap: 30px;
@@ -280,14 +322,17 @@ ul li {
 .item:hover:after {
     opacity: 0;
 }
-.item--mediuma{
+
+.item--mediuma {
     background-image: url('thumb.png');
     grid-row-end: span 2;
 }
+
 .item--medium {
     background-image: url('recipe.png');
     grid-row-end: span 2;
 }
+
 .item--mediumb {
     background-image: url('neobank.png');
     grid-row-end: span 2;
@@ -301,14 +346,11 @@ ul li {
 .item--large {
     background-image: url('halawee.png');
     grid-row-end: span 3;
-   
-
 }
+
 .item--largeb {
     background-image: url('ownerdirect.png');
     grid-row-end: span 3;
-   
-
 }
 
 .item--full {
@@ -344,7 +386,6 @@ ul li {
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
- 
 }
 
 .badge {
@@ -375,7 +416,6 @@ ul li {
     background-position: center;
     padding-left: 10px;
     padding-right: 150px;
-    
 }
 
 .intro-container {
@@ -411,19 +451,38 @@ ul li {
 .heading-fix {
     padding-top: 63px;
 }
-.message{
+
+.message {
     padding-bottom: 100px;
     word-wrap: break-word;
 }
-.form-control{
 
+.form-control {
     height: auto !important;
     word-wrap: break-word;
-
-   
 }
+
+@media only screen and (min-width: 1024px)and (max-width: 1452px) {
+    .text-content {
+        color: #404040;
+        padding-left: 100px;
+        padding-right: 100px;
+        line-height: 30px;
+    }
+    .intro-fix {
+        padding-top: 120px;
+    }
+    .project-intro {
+        background-image: url('kcbg.png');
+        color: #fff;
+        background-size: cover;
+        background-position: center;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
 @media only screen and (max-width: 991px) {
-   
     ul li {
         font-size: 24px;
         margin: auto;
@@ -467,11 +526,18 @@ ul li {
     }
 }
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (min-width: 766px)and (max-width: 769px) {
+    .form-clear {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* @media only screen and (min-width: 1026px) and (max-width: 1452px){
     .text-content {
         color: #404040;
-        padding-left: 2px;
-        padding-right: 2px;
+        padding-left: 200px;
+        padding-right: 200px;
         line-height: 30px;
     }
     .intro-fix {
@@ -486,7 +552,8 @@ ul li {
         padding-right: 5px;
     }
    
-}
+} */
+
 /* space between start of footer and project links on ipad
 @media only screen and (max-width: 768px) and (min-width: 574px) {
 .project-links {
@@ -494,9 +561,8 @@ ul li {
 }
 } */
 
-
 @media only screen and (max-width: 574px) {
-    footer{
+    footer {
         margin-bottom: 80px;
     }
     .resume-bg {
@@ -508,7 +574,7 @@ ul li {
     .footer {
         padding-left: 20px;
     }
-    .float-navbar{
+    .float-navbar {
         grid-template-columns: auto;
         position: fixed;
         bottom: 0;
@@ -519,15 +585,13 @@ ul li {
         transition-timing-function: ease-in;
         box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.03);
     }
-   
-    
-.content-fix {
-    padding-top: 60px;
+    .content-fix {
+        padding-top: 60px;
+    }
 }
 
-}
-@media only screen and (max-width: 321px){
-    .nav-logo{
-        width:40%;
+@media only screen and (max-width: 321px) {
+    .nav-logo {
+        width: 40%;
     }
 }
