@@ -135,7 +135,9 @@ ul li {
 .desc a{
    line-height: 30px;
 }
-
+.about-fix{
+margin-top: 35px;
+}
 
 .footer {
     background: #fff !important;
@@ -190,12 +192,17 @@ ul li {
     background-size: 100% 88%;
 }
 
-.resume-bg {
-    background-color: #FDFDFD;
-    height: 20%;
-    padding: 25px 32px 25px 25px;
+.avatar{
+   width: 200px;
+   height: auto;
+   border-radius: 50%;
+   margin-bottom: 15px;
+   
 }
-
+.title{
+    color: rgb(255, 216, 20);
+ 
+}
 .heading {
     color: #27282C;
     font-weight: bold;
@@ -328,6 +335,7 @@ ul li {
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
+ 
 }
 
 .badge {
@@ -360,7 +368,7 @@ ul li {
     padding-right: 150px;
     
 }
-  
+
 .intro-container {
     margin-top: 40px;
     margin-left: 180px;
@@ -396,6 +404,7 @@ ul li {
 }
 
 @media only screen and (max-width: 991px) {
+   
     ul li {
         font-size: 24px;
         margin: auto;
