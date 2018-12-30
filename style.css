@@ -99,7 +99,12 @@ ul li {
 input:focus {
     border: 1px solid #FDE15B !important;
     border-radius: 1px !important;
-    outline: 20px !important;
+    outline: 0px !important;
+}
+textarea:focus{
+    border: 1px solid #FDE15B !important;
+    border-radius: 1px !important;
+    outline: 0px !important;
 }
 
 .btn {
@@ -179,9 +184,11 @@ input:focus {
 }
 
 .fix {
-    margin-top: 20px;
+    margin-top: 5px;
 }
-
+.contact-fix{
+    padding-top: 50px;
+}
 .footer {
     background: #fff !important;
     border-top: 0.75px solid #FED100;
@@ -388,6 +395,12 @@ input:focus {
     text-align: center;
 }
 
+
+.about-text-center {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .badge {
     border-radius: 0 !important;
     background-color: #fff !important;
@@ -587,6 +600,9 @@ input:focus {
     }
     .content-fix {
         padding-top: 60px;
+    }
+    .fix {
+        margin-top: 20px;
     }
 }
 
