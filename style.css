@@ -95,7 +95,10 @@ ul li {
         opacity: 1;
     }
 }
+input,textarea{
+    border-radius: 2px !important;
 
+}
 input:focus {
     border: 1px solid #FDE15B !important;
     border-radius: 1px !important;
@@ -578,6 +581,7 @@ textarea:focus{
     footer {
         margin-bottom: 80px;
     }
+   
     .resume-bg {
         background-color: fdfdfd;
         height: 20%;
@@ -604,6 +608,7 @@ textarea:focus{
     .fix {
         margin-top: 20px;
     }
+    
 }
 
 @media only screen and (max-width: 321px) {
