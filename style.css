@@ -95,18 +95,21 @@ ul li {
         opacity: 1;
     }
 }
-input,textarea{
+
+input,
+textarea {
     border-radius: 2px !important;
     border-width: .10rem !important;
     padding: 13px !important;
-
 }
+
 input:focus {
     border: .10em solid #FDE15B !important;
     border-radius: 1px !important;
     outline: 0px !important;
 }
-textarea:focus{
+
+textarea:focus {
     border: .10em solid #FDE15B !important;
     border-radius: 1px !important;
     outline: 0px !important;
@@ -191,9 +194,11 @@ textarea:focus{
 .fix {
     margin-top: 5px;
 }
-.contact-fix{
+
+.contact-fix {
     padding-top: 50px;
 }
+
 .footer {
     background: #fff !important;
     border-top: 0.75px solid #FED100;
@@ -400,7 +405,6 @@ textarea:focus{
     text-align: center;
 }
 
-
 .about-text-center {
     margin-bottom: 10px;
     text-align: center;
@@ -479,11 +483,12 @@ textarea:focus{
     height: auto !important;
     word-wrap: break-word;
 }
+
 .form-control:focus {
     outline: none;
-    box-shadow:none !important;
-    
-  }
+    box-shadow: none !important;
+}
+
 @media only screen and (min-width: 1024px)and (max-width: 1452px) {
     .text-content {
         color: #404040;
@@ -501,6 +506,11 @@ textarea:focus{
         background-position: center;
         padding-left: 5px;
         padding-right: 5px;
+    }
+    .navbar-nav {
+        display: table;
+        margin-bottom: 0;
+        list-style: none;
     }
 }
 
@@ -546,12 +556,22 @@ textarea:focus{
         padding-left: 5px;
         padding-right: 5px;
     }
+    .navbar-nav {
+        display: table;
+        margin-bottom: 0;
+        list-style: none;
+    }
 }
 
 @media only screen and (min-width: 766px)and (max-width: 769px) {
     .form-clear {
         margin-left: auto;
         margin-right: auto;
+    }
+    .navbar-nav {
+        display: table;
+        margin-bottom: 0;
+        list-style: none;
     }
 }
 
@@ -587,7 +607,6 @@ textarea:focus{
     footer {
         margin-bottom: 80px;
     }
-   
     .resume-bg {
         background-color: fdfdfd;
         height: 20%;
@@ -614,7 +633,12 @@ textarea:focus{
     .fix {
         margin-top: 20px;
     }
-    
+    .navbar-nav {
+        display: table;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
 }
 
 @media only screen and (max-width: 321px) {
