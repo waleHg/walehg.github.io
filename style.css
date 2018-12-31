@@ -150,6 +150,7 @@ textarea:focus {
     background: #fff !important;
     border-bottom: 0.75px solid #FED100;
     width: 100%;
+    height: 60px;
 }
 
 .navbar-light .navbar-toggler {
