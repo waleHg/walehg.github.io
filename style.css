@@ -532,9 +532,7 @@ textarea:focus {
     .active-point {
         display: none;
     }
-    .project-links {
-        margin-top: 35px;
-    }
+    
     .text-content {
         color: #404040;
         padding-left: 2px;
@@ -617,6 +615,9 @@ textarea:focus {
     }
     .content-fix {
         padding-top: 45px;
+    }
+    .project-links {
+        margin-top: 35px;
     }
   
     .fix {
