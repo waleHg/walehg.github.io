@@ -487,7 +487,7 @@ textarea:focus {
     box-shadow: none !important;
 }
 
-/* klasconnect */
+
 
 .primary-col {
     margin-top: 30px;
@@ -511,7 +511,7 @@ textarea:focus {
     padding-top: 12px;
 }
 
-/* klasconnect colours end */
+
 
 @media only screen and (min-width: 1024px)and (max-width: 1452px) {
     .text-content {
