@@ -194,7 +194,7 @@ textarea:focus {
 }
 
 .contact-fix {
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .footer {
@@ -436,6 +436,7 @@ textarea:focus {
     background-position: center;
     padding-left: 10px;
     padding-right: 150px;
+
 }
 
 .intro-container {
