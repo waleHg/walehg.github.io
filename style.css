@@ -511,12 +511,13 @@ textarea:focus {
     padding-top: 12px;
 }
 
-@media only screen and (min-width: 766px) {
+@media only screen and (max-width: 766px) and (min-width: 575px){
 .logo-sm{
     display: none;
 }
 }
-@media only screen and (min-width: 1024px)and (max-width: 1452px) {
+
+@media only screen and (min-width: 1024px) and (max-width: 1452px) {
     .text-content {
         color: #404040;
         padding-left: 100px;
