@@ -511,11 +511,7 @@ textarea:focus {
     padding-top: 12px;
 }
 
-@media only screen and (max-width: 766px) and (min-width: 575px){
-.logo-sm{
-    display: none;
-}
-}
+
 
 @media only screen and (min-width: 1024px) and (max-width: 1452px) {
     .text-content {
@@ -535,6 +531,7 @@ textarea:focus {
         padding-left: 5px;
         padding-right: 5px;
     }
+    
     
 }
 
@@ -623,7 +620,7 @@ textarea:focus {
     }
   
     .resume-bg {
-        background-color: fdfdfd;
+        background-color: #fdfdfd;
         height: 20%;
         padding: 25px 32px 25px 25px;
         margin: 30px 15px -20px 12px;
@@ -641,6 +638,7 @@ textarea:focus {
         transition: all .3s;
         transition-timing-function: ease-in;
         box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.03);
+      
     }
     .content-fix {
         padding-top: 45px;
@@ -658,7 +656,11 @@ textarea:focus {
         list-style: none;
     }
 }
-
+@media only screen and (min-width: 574px) {
+    .logo-sm{
+        display: none;
+    }
+}
 @media only screen and (max-width: 321px) {
     .nav-logo {
         width: 40%;
