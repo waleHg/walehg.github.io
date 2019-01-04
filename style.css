@@ -510,10 +510,9 @@ textarea:focus {
     font-size: 14px;
     padding-top: 12px;
 }
-
-@media only screen and (max-width: 321px) {
-    .nav-logo {
-        width: 40%;
+@media only screen and (min-width: 574px) {
+    .logo-sm{
+        display: none;
     }
 }
 
@@ -661,8 +660,9 @@ textarea:focus {
         list-style: none;
     }
 }
-@media only screen and (min-width: 574px) {
-    .logo-sm{
-        display: none;
+
+@media only screen and (max-width: 321px) {
+    .nav-logo {
+        width: 40%;
     }
 }
