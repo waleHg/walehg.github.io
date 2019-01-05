@@ -155,6 +155,7 @@ textarea:focus {
     background: #fff !important;
     border-bottom: 0.75px solid #FED100;
     width: 100%;
+
 }
 
 .navbar-light .navbar-toggler {
@@ -401,6 +402,7 @@ textarea:focus {
     margin-bottom: 10px;
     font-size: 14px;
     text-align: center;
+
 }
 
 .text-center {
@@ -504,7 +506,9 @@ textarea:focus {
 }
 
 .primary-col {
+    border-radius: 4px;
     margin-top: 30px;
+    margin-right: 10px;
     width: 60px;
     height: 60px;
     background: #2196F3;
@@ -512,10 +516,13 @@ textarea:focus {
     color: #fff;
     font-size: 14px;
     padding-top: 12px;
+    
 }
 
 .other-col {
+    border-radius: 4px;
     margin-top: 30px;
+    margin-right: 10px;
     width: 60px;
     height: 60px;
     background: #637381;
@@ -524,7 +531,17 @@ textarea:focus {
     font-size: 14px;
     padding-top: 12px;
 }
-
+.roboto{
+    font-size: 80px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+    color: #2196F3;
+}
+.row .roboto{
+    padding-top: 50px;
+}
 @media only screen and (min-width: 1024px) and (max-width: 1452px) {
     .text-content {
         color: #404040;
@@ -557,6 +574,16 @@ textarea:focus {
         color: #27282C;
         font-size: 30px;
         font-weight: bold;
+    }
+    .roboto{
+        font-size: 50px;
+        font-family: "Roboto";
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 5px;
+    }
+    .row .roboto{
+        padding-top: 30px;
     }
     .item {
         grid-row-end: span 2;
