@@ -623,9 +623,12 @@ textarea:focus {
     .project-links {
         margin-top: 35px;
 }
+.navbar-nav {
+    display: unset;
+   
 
 }
-
+}
 @media only screen and (min-width: 766px)and (max-width: 769px) {
     .form-clear {
         margin-left: auto;
