@@ -553,7 +553,6 @@ textarea:focus {
         padding-top: 120px;
     }
     .project-intro {
-        background-image: url('kcbg.png');
         color: #fff;
         background-size: cover;
         background-position: center;
@@ -606,7 +605,7 @@ textarea:focus {
         padding-top: 120px;
     }
     .project-intro {
-        background-image: url('kcbg.png');
+     
         color: #fff;
         background-size: cover;
         background-position: center;
