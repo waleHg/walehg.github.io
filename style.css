@@ -403,7 +403,9 @@ textarea:focus {
     filter: alpha(opacity=1);
     /* Fix to make div clickable in IE */
 }
-
+.hamburger {
+    padding: 2px 15px !important;
+}
 .small {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -580,6 +582,7 @@ textarea:focus {
         font-size: 30px;
         font-weight: bold;
     }
+    
     .roboto {
         font-size: 50px;
         font-family: "Roboto";
