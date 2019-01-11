@@ -635,6 +635,11 @@ textarea:focus {
         margin-right: auto;
     }
 }
+@media only screen and (width: 768px){
+    .project-links {
+        margin-top: 0px;
+}
+}
 
 /* @media only screen and (min-width: 1026px) and (max-width: 1452px){
     .text-content {
