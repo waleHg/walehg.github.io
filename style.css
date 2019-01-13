@@ -21,6 +21,7 @@
 body {
     font-family: 'Cera', sans-serif;
     color: #404040;
+    
 }
 
 blockquote {
@@ -591,9 +592,9 @@ textarea:focus {
 }
 
 .showcase {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: flex-start; */
     color: #FFF;
     background-position: center;
     background-repeat: no-repeat;
@@ -673,6 +674,7 @@ textarea:focus {
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
+        overflow: hidden;
     }
     .active-point {
         display: none;
@@ -837,6 +839,7 @@ textarea:focus {
         margin-bottom: 0;
         list-style: none;
     }
+  
 }
 
 @media only screen and (max-width: 321px) {
