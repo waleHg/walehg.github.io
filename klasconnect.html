@@ -244,7 +244,7 @@
         <h2>Have a project you want me to work on?</h2>
 
         <h5 class="">Shoot me a mail</h5>
-        <p class="desc"><a class="link" href="mailto:badaraolawale@gmail.com">badaraolawale@gmail.com</a></p>
+        <p class="desc"><a class="link copy-click" href=""  data-tooltip-text="Click to copy email" data-tooltip-text-copied="✔ Copied to clipboard">badaraolawale@gmail.com</a></p>
 
       </div>
 
@@ -262,57 +262,98 @@
 
   <!-- footer-start -->
   <footer class="footer">
-    <div class="container content-fix">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 fade-in-top">
-          <h5 class="footer-heading">Contact Me</h5>
-          <p class="desc"><a class="link" href="mailto:badaraolawale@gmail.com">badaraolawale@gmail.com</a></p>
-          <h5 class="footer-heading footer-margin">Connect</h5>
-          <p class="desc"><a class="link" href="https://twitter.com/walehg" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a class="link fa-margin" href="https://www.linkedin.com/in/badarao" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <div class="container content-fix">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 fade-in-top">
+            <h5 class="footer-heading">Contact Me</h5>
+            <p class="desc"><a class="link copy-click" href=""  data-tooltip-text="Click to copy email" data-tooltip-text-copied="✔ Copied to clipboard">badaraolawale@gmail.com</a></p>
+  
+            <h5 class="footer-heading footer-margin">Connect</h5>
+            <p class="desc"><a class="link" href="https://twitter.com/walehg" target="_blank"><i class="fab fa-twitter"></i></a><a
+                class="link fa-margin" href="https://www.linkedin.com/in/badarao" target="_blank"><i class="fab fa-linkedin"></i></a>
               <a class="link fa-margin" href="https://dribbble.com/heregoes" target="_blank"><i class="fab fa-dribbble"></i></a>
               <a class="link fa-margin" href="https://behance.net/heregoes" target="_blank"><i class="fab fa-behance"></i></a>
-          </p>
-
-
+            </p>
+  
+  
+          </div>
+          <div class="col-lg-3 col-md-3"></div>
+          <div class="col-lg-3 col-md-3 col-sm-12 fade-in-top">
+            <h5 class="footer-heading project-links">Projects</h5>
+            <p class="desc"><a class="link" href="klasconnect.html">KlasConnect</a></p>
+            <p class="desc"><a class="link" href="halawee.html">Halawee</a></p>
+            <p class="desc"><a class="link" href="recipe-book.html">Recipe Book</a></p>
+            <p class="desc"><a class="link" href="ownerdirect.html">OwnerDirect</a></p>
+  
+          </div>
+  
         </div>
-        <div class="col-lg-3 col-md-3"></div>
-        <div class="col-lg-3 col-md-3 col-sm-12 fade-in-top">
-          <h5 class="footer-heading project-links">Projects</h5>
-          <p class="desc"><a class="link" href="klasconnect.html">KlasConnect</a></p>
-          <p class="desc"><a class="link" href="halawee.html">Halawee</a></p>
-          <p class="desc"><a class="link" href="recipe-book.html">Recipe Book</a></p>
-          <p class="desc"><a class="link" href="ownerdirect.html">OwnerDirect</a></p>
-
+        <div class="row">
+          <div class="col-12 small">©
+            <script>
+              document.write(new Date().getFullYear())
+            </script>. Olawale Badara</div>
         </div>
-
       </div>
-      <div class="row">
-        <div class="col-12 small">©
-          <script>
-            document.write(new Date().getFullYear())
-          </script>. Olawale Badara</div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
 
-  <script>
-    // Look for .hamburger
-    var hamburger = document.querySelector(".hamburger");
-    // On click
-    hamburger.addEventListener("click", function () {
-      // Toggle class "is-active"
-      hamburger.classList.toggle("is-active");
-      // Do something else, like open/close menu
-    });
-  </script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
-</body>
-
-</html>
+    <script >const links = document.querySelectorAll('.copy-click');
+        const cls = {
+          copied: 'is-copied',
+          hover: 'is-hovered' };
+        
+        
+        const copyToClipboard = str => {
+          const el = document.createElement('input');
+          str.dataset.copyString ? el.value = str.dataset.copyString : el.value = str.text;
+          el.setAttribute('readonly', '');
+          el.style.position = 'absolute';
+          el.style.opacity = 0;
+          document.body.appendChild(el);
+          el.select();
+          document.execCommand('copy');
+          document.body.removeChild(el);
+        };
+        
+        const clickInteraction = e => {
+          e.preventDefault();
+          copyToClipboard(e.target);
+          e.target.classList.add(cls.copied);
+          setTimeout(() => e.target.classList.remove(cls.copied), 1000);
+          setTimeout(() => e.target.classList.remove(cls.hover), 700);
+        };
+        
+        Array.from(links).forEach(link => {
+          link.addEventListener('click', e => clickInteraction(e));
+          link.addEventListener('keypress', e => {
+            if (e.keyCode === 13) clickInteraction(e);
+          });
+          link.addEventListener('mouseover', e => e.target.classList.add(cls.hover));
+          link.addEventListener('mouseleave', e => {
+            if (!e.target.classList.contains(cls.copied)) {
+              e.target.classList.remove(cls.hover);
+            }
+          });
+        });
+        </script>
+    <script>
+      // Look for .hamburger
+      var hamburger = document.querySelector(".hamburger");
+      // On click
+      hamburger.addEventListener("click", function () {
+        // Toggle class "is-active"
+        hamburger.classList.toggle("is-active");
+        // Do something else, like open/close menu
+      });
+    </script>
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"></script>
+  </body>
+  
+  </html>

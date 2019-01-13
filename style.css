@@ -122,6 +122,44 @@ textarea:focus {
     outline: 0px !important;
 }
 
+/* copy to clipboard kini */
+
+.copy-click {
+    position: relative;
+    /* cursor: copy; */
+}
+
+.copy-click:after {
+    content: attr(data-tooltip-text);
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    padding: 8px 16px;
+    white-space: nowrap;
+    background-color: #FDE15B;
+    border-radius: 4px;
+    box-shadow: 0 0 0 -12px rgba(0, 0, 0, 0);
+    pointer-events: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    opacity: 0;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   }
+
+.copy-click.is-hovered:after {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    transition-timing-function: var(--ease);
+}
+
+.copy-click.is-copied:after {
+    content: attr(data-tooltip-text-copied);
+}
+
+/* end of copy to clip */
+
 .btn {
     color: #000 !important;
     position: relative;
@@ -171,7 +209,6 @@ textarea:focus {
     border-radius: 3px;
     margin-left: 2px;
     vertical-align: text-top;
-
 }
 
 .content-fix {
@@ -403,9 +440,11 @@ textarea:focus {
     filter: alpha(opacity=1);
     /* Fix to make div clickable in IE */
 }
+
 .hamburger {
     padding: 2px 15px !important;
 }
+
 .small {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -550,6 +589,7 @@ textarea:focus {
 .row .roboto {
     padding-top: 50px;
 }
+
 .showcase {
     display: flex;
     flex-wrap: wrap;
@@ -571,17 +611,16 @@ textarea:focus {
 .showcase-text {
     margin-top: 60px;
 }
-.showcase .badge{
-  
-        margin: 10px 12px;
-   
+
+.showcase .badge {
+    margin: 10px 12px;
 }
+
 .showcase .col-lg-1 {
     -ms-flex: 0 0 8.333333%;
     flex: 0 0 8.333333%;
     max-width: 5.333333%;
 }
-
 
 @media only screen and (min-width: 1024px) and (max-width: 1452px) {
     .text-content {
@@ -600,11 +639,9 @@ textarea:focus {
         padding-left: 5px;
         padding-right: 5px;
     }
-
-    .showcase-text{
+    .showcase-text {
         margin-top: 30px;
     }
-
 }
 
 @media only screen and (max-width: 991px) {
@@ -619,7 +656,6 @@ textarea:focus {
         font-size: 30px;
         font-weight: bold;
     }
-    
     .roboto {
         font-size: 50px;
         font-family: "Roboto";
@@ -659,24 +695,21 @@ textarea:focus {
     }
     .project-links {
         margin-top: 35px;
+    }
+    .navbar-nav {
+        display: unset;
+    }
+    .showcase-text {
+        margin-top: 0px;
+    }
+    .showcase {
+        padding: 73px 10px 58px 20px;
+    }
+    .year {
+        margin-left: 15px;
+    }
 }
-.navbar-nav {
-    display: unset;
-   
 
-}
-.showcase-text{
-    margin-top: 0px;
-}
-.showcase {
-   
-    padding: 73px 10px 58px 20px;
- 
-}
-.year {
-    margin-left: 15px;
-}
-}
 @media only screen and (min-width: 766px)and (max-width: 769px) {
     .form-clear {
         margin-left: auto;
@@ -694,19 +727,19 @@ textarea:focus {
         height: 400px;
         overflow: hidden;
     }
-    .showcase-text{
+    .showcase-text {
         margin-top: 30px;
     }
-    .year{
+    .year {
         margin-left: 15px;
         margin-bottom: -15px;
     }
 }
-@media only screen and (width: 768px){
+
+@media only screen and (width: 768px) {
     .project-links {
         margin-top: 0px;
-}
-
+    }
 }
 
 /* @media only screen and (min-width: 1026px) and (max-width: 1452px){
@@ -759,10 +792,10 @@ textarea:focus {
         height: 400px;
         overflow: hidden;
     }
-    .showcase-text{
+    .showcase-text {
         margin-top: 30px;
     }
-    .year{
+    .year {
         margin-left: 15px;
         margin-bottom: -15px;
     }
@@ -770,7 +803,7 @@ textarea:focus {
         display: none;
     }
     .resume-bg {
-        background-color: #fdfdfd;
+        background-color: #f8f8f8;
         height: 20%;
         padding: 25px 32px 25px 25px;
         margin: 30px 15px -20px 12px;
@@ -810,7 +843,7 @@ textarea:focus {
     .nav-logo {
         width: 40%;
     }
-    .badge{
+    .badge {
         margin-left: 0px;
     }
 }
