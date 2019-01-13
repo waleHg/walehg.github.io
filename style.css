@@ -571,7 +571,11 @@ textarea:focus {
 .showcase-text {
     margin-top: 60px;
 }
-
+.showcase .badge{
+  
+        margin: 10px 12px;
+   
+}
 .showcase .col-lg-1 {
     -ms-flex: 0 0 8.333333%;
     flex: 0 0 8.333333%;
