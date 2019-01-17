@@ -122,7 +122,9 @@ textarea:focus {
     border-radius: 1px !important;
     outline: 0px !important;
 }
-
+#contact{
+    transition: transform 0.7s ease-in-out, -webkit-transform 0.7s ease-in-out;
+}
 /* copy to clipboard kini */
 
 .copy-click {
