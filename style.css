@@ -345,13 +345,6 @@ textarea:focus {
     display: flex;
 }
 
-.show div {
-    -webkit-box-flex: auto;
-    -ms-flex: auto;
-    flex: auto;
-    width: 300px;
-    margin: .5vw;
-}
 
 .show div img {
     margin-top: 25px;
@@ -377,8 +370,6 @@ textarea:focus {
     color: #fff;
     grid-column-start: auto;
     grid-row-start: auto;
-    color: #fff;
-    background-color: #C4C4C4;
     background-size: cover;
     background-position: center;
     transition: transform 0.7s ease-in-out, -webkit-transform 0.7s ease-in-out;
@@ -389,6 +380,9 @@ textarea:focus {
 .item:hover {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
+    background-color: #C4C4C4;
+    opacity: 0.8;
+    transition: transform 0.7s ease-in-out, -webkit-transform 0.7s ease-in-out;
 }
 
 .item:hover:after {
@@ -449,37 +443,6 @@ textarea:focus {
 
 .hamburger {
     padding: 2px 15px !important;
-}
-
-#scroll {
-    position:fixed;
-    right:10px;
-    bottom:10px;
-    cursor:pointer;
-    width:50px;
-    height:50px;
-    background-color:#3498db;
-    text-indent:-9999px;
-    display:none;
-    -webkit-border-radius:60px;
-    -moz-border-radius:60px;
-    border-radius:60px
-}
-#scroll span {
-    position:absolute;
-    top:50%;
-    left:50%;
-    margin-left:-8px;
-    margin-top:-12px;
-    height:0;
-    width:0;
-    border:8px solid transparent;
-    border-bottom-color:#ffffff;
-}
-#scroll:hover {
-    background-color:#e74c3c;
-    opacity:1;filter:"alpha(opacity=100)";
-    -ms-filter:"alpha(opacity=100)";
 }
 
 .small {
@@ -588,7 +551,7 @@ textarea:focus {
     box-shadow: none !important;
 }
 
-.primary-col {
+.color {
     border-radius: 4px;
     margin-top: 30px;
     margin-right: 10px;
@@ -636,7 +599,7 @@ textarea:focus {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 20px;
-    padding: 80px 10px 58px 50px;
+    padding: 70px 10px 58px 50px;
     height: 400px;
     overflow: hidden;
 }
@@ -658,7 +621,9 @@ textarea:focus {
     flex: 0 0 8.333333%;
     max-width: 5.333333%;
 }
-
+.showcase .img-fluid{
+    width: 100%;
+}
 @media only screen and (min-width: 1024px) and (max-width: 1452px) {
     .text-content {
         color: #404040;
@@ -762,7 +727,7 @@ textarea:focus {
         background-size: cover;
         margin-bottom: 0px;
         padding: 0px 10px 100px 35px;
-        height: 400px;
+        height: 500px;
         overflow: hidden;
     }
     .showcase-text {
@@ -827,7 +792,7 @@ textarea:focus {
         background-size: cover;
         margin-bottom: 0px;
         padding: 0 0 100px 0;
-        height: 400px;
+        height: 500px;
         overflow: hidden;
     }
     .showcase-text {
