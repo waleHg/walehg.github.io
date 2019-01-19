@@ -218,7 +218,7 @@ textarea:focus {
 }
 
 .content-fix {
-    padding-top: 72px;
+    padding-top: 100px;
 }
 
 .resume-bg {
@@ -861,7 +861,7 @@ textarea:focus {
         box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.03);
     }
     .content-fix {
-        padding-top: 45px;
+        padding-top: 70px;
     }
     .project-links {
         margin-top: 35px;
