@@ -21,7 +21,6 @@
 body {
     font-family: 'Cera', sans-serif;
     color: #404040;
-    
 }
 
 blockquote {
@@ -122,9 +121,15 @@ textarea:focus {
     border-radius: 1px !important;
     outline: 0px !important;
 }
-#contact{
+
+#contact {
     transition: transform 0.7s ease-in-out, -webkit-transform 0.7s ease-in-out;
 }
+
+.row-fix {
+    overflow: hidden;
+}
+
 /* copy to clipboard kini */
 
 .copy-click {
@@ -147,11 +152,13 @@ textarea:focus {
     backface-visibility: hidden;
     opacity: 0;
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-   }
-.intro-h2{
+}
+
+.intro-h2 {
     line-height: 150%;
     font-weight: 600;
 }
+
 .copy-click.is-hovered:after {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     opacity: 1;
@@ -345,7 +352,6 @@ textarea:focus {
     display: flex;
 }
 
-
 .show div img {
     margin-top: 25px;
     width: 100%;
@@ -458,6 +464,38 @@ textarea:focus {
     text-align: center;
 }
 
+.carousel-control-prev-icon {
+    background-image: url(prev.svg) !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url(next.svg) !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    height: 40px;
+    width: 40px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 10%;
+}
+
+.carousel-inner {
+    margin-top: 20px;
+}
+
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+    fill: #FDE15B !important;
+    cursor: pointer !important;
+    transition: ease-in 0.5s;
+}
+
 .about-text-center {
     margin-bottom: 10px;
     text-align: center;
@@ -504,8 +542,8 @@ textarea:focus {
 
 .intro-container {
     margin-top: 40px;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 130px;
+    margin-right: 130px;
     background-size: cover;
     background-position: center;
 }
@@ -533,7 +571,8 @@ textarea:focus {
 }
 
 .heading-fix {
-    padding-top: 63px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .message {
@@ -601,6 +640,9 @@ textarea:focus {
     margin-bottom: 20px;
     padding: 70px 10px 58px 50px;
     height: 400px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 30px;
     overflow: hidden;
 }
 
@@ -621,9 +663,7 @@ textarea:focus {
     flex: 0 0 8.333333%;
     max-width: 5.333333%;
 }
-.showcase .img-fluid{
-    width: 100%;
-}
+
 @media only screen and (min-width: 1024px) and (max-width: 1452px) {
     .text-content {
         color: #404040;
@@ -658,6 +698,14 @@ textarea:focus {
         font-size: 30px;
         font-weight: bold;
     }
+    .heading-fix {
+        padding-top: 30px;
+    }
+    .showcase {
+        margin-left: 7px;
+        margin-right: 7px;
+        margin-top: 7px;
+    }
     .roboto {
         font-size: 50px;
         font-family: "Roboto";
@@ -673,8 +721,8 @@ textarea:focus {
     }
     .intro-container {
         margin-top: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
         overflow: hidden;
     }
     .active-point {
@@ -840,7 +888,6 @@ textarea:focus {
         margin-bottom: 0;
         list-style: none;
     }
-  
 }
 
 @media only screen and (max-width: 321px) {
@@ -849,5 +896,9 @@ textarea:focus {
     }
     .badge {
         margin-left: 0px;
+    }
+    .intro-container{
+        margin-left: -2px;
+        margin-right: -2px;
     }
 }
