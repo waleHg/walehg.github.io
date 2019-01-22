@@ -61,8 +61,6 @@
 </head>
 
 <body>
-
-
   <!-- navbar -->
   <nav class="float-navbar navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand nav-logo" href="index.html">
@@ -100,13 +98,12 @@
   <div class="row-fix">
     <div class="row">
       <div class="col-lg-12 col-sm-12 fade-in-top">
-
         <div class="showcase" style="background: url(kc-splash.png)">
           <div class="row">
             <div class="col-lg-1 col-md-12 col-sm-12 showcase-text">
               <p class="year">2018</p>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 showcase-text">
+            <div class="col-lg-8 col-md-12 col-sm-12 showcase-text">
 
               <span class="badge badge-secondary">Education</span>
               <h3 class="h3-intro">KlasConnect</h3>
@@ -115,13 +112,14 @@
                 between lecturers and students easier. I worked on designing the
                 User Interface for the Mobile App.</p>
             </div>
-            <div class="col-lg-5"> </div>
+            <div class="col-lg-3"> </div>
           </div>
 
         </div>
 
 
         <div class="text-content intro-container">
+
           <div class="col-12 heading-fix">
             <h2>Overview</h2>
 
@@ -257,11 +255,13 @@
 
   </div> -->
 
-  <div class="intro-container">
+  <div class="contact-container">
+      <button onclick="topFunction()" title="Go to top"> <img src="top.svg" id="myBtn" alt="back to top" class="src"></button>
+
     <div class="row">
       <div class="col-12 text-center heading-fix">
         <h2>Have a project you want me to work on?</h2>
-
+        
         <h5 class="">Shoot a mail to</h5>
         <p class="desc"><a class="link copy-click" href="" data-tooltip-text="Click to copy email"
             data-tooltip-text-copied="🖐 Copied to clipboard">badaraolawale@gmail.com</a></p>
@@ -279,6 +279,7 @@
   </div>
   </div>
   </div>
+  
   <!-- end of content -->
 
 
@@ -321,7 +322,8 @@
   </footer>
 
 
-  <script>const links = document.querySelectorAll('.copy-click');
+  <script>
+    const links = document.querySelectorAll('.copy-click');
     const cls = {
       copied: 'is-copied',
       hover: 'is-hovered'
@@ -370,6 +372,26 @@
       hamburger.classList.toggle("is-active");
       // Do something else, like open/close menu
     });
+  </script>
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
   </script>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
