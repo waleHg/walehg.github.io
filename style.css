@@ -135,7 +135,7 @@ textarea:focus {
     position: fixed;
     bottom: 75px;
     right: 30px;
-    z-index: 99;
+    /* z-index: 99; */
     font-size: 18px;
     border: none;
     outline: none;
