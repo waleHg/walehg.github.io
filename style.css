@@ -1,6 +1,7 @@
-html{
+html {
     scroll-behavior: smooth;
 }
+
 /* Normal */
 
 @font-face {
@@ -86,7 +87,6 @@ ul li {
         transform: translateY(-50px);
         opacity: 0;
     }
-
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -100,7 +100,6 @@ ul li {
         transform: translateY(-50px);
         opacity: 0;
     }
-
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -145,11 +144,12 @@ textarea:focus {
     cursor: pointer;
     padding: 8px;
     border-radius: 50%;
-  }
-  
-  #myBtn:hover {
+}
+
+#myBtn:hover {
     background-color: #637381;
-  }
+}
+
 .row-fix {
     overflow: hidden;
 }
@@ -413,7 +413,6 @@ textarea:focus {
     background-color: #C4C4C4;
     opacity: 0.8;
     transition: transform 0.7s ease-in-out, -webkit-transform 0.7s ease-in-out;
-
 }
 
 .item:hover:after {
@@ -688,20 +687,20 @@ textarea:focus {
     flex: 0 0 8.333333%;
     max-width: 5.333333%;
 }
-@media only screen and (width: 1024px) {
-.text-content {
-    color: #404040;
-    padding-left: 15%;
-    padding-right: 15%;
-    line-height: 30px;
-}
-.showcase {
-  
-    margin-left: 10%;
-    margin-right: 10%;
 
+@media only screen and (width: 1024px) {
+    .text-content {
+        color: #404040;
+        padding-left: 15%;
+        padding-right: 15%;
+        line-height: 30px;
+    }
+    .showcase {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
-}
+
 @media only screen and (min-width: 1024px) and (max-width: 1452px) {
     .text-content {
         color: #404040;
@@ -709,11 +708,9 @@ textarea:focus {
         padding-right: 15%;
         line-height: 30px;
     }
-  
     .intro-fix {
         padding-top: 120px;
     }
-
     .project-intro {
         color: #fff;
         background-size: cover;
@@ -721,9 +718,11 @@ textarea:focus {
         padding-left: 5px;
         padding-right: 5px;
     }
-
     .showcase-text {
         margin-top: 30px;
+    }
+    .resume-bg{
+        padding: 25px 12px 15px 25px;
     }
 }
 
@@ -734,23 +733,19 @@ textarea:focus {
         font-weight: 600;
         transition-timing-function: ease-in;
     }
-
     h2 {
         color: #27282C;
         font-size: 30px;
         font-weight: bold;
     }
-
     .heading-fix {
         padding-top: 30px;
     }
-
     .showcase {
         margin-left: 7px;
         margin-right: 7px;
         margin-top: 7px;
     }
-
     .roboto {
         font-size: 50px;
         font-family: "Roboto";
@@ -758,37 +753,30 @@ textarea:focus {
         font-style: normal;
         margin-bottom: 5px;
     }
-
     .row .roboto {
         padding-top: 30px;
     }
-
     .item {
         grid-row-end: span 2;
     }
-
     .intro-container {
         margin-top: 20px;
         margin-left: 5px;
         margin-right: 5px;
         overflow: hidden;
     }
-
     .active-point {
         display: none;
     }
-
     .text-content {
         color: #404040;
         padding-left: 2px;
         padding-right: 2px;
         line-height: 30px;
     }
-
     .intro-fix {
         padding-top: 120px;
     }
-
     .project-intro {
         color: #fff;
         background-size: cover;
@@ -796,23 +784,18 @@ textarea:focus {
         padding-left: 5px;
         padding-right: 5px;
     }
-
     .project-links {
         margin-top: 35px;
     }
-
     .navbar-nav {
         display: unset;
     }
-
     .showcase-text {
         margin-top: 0px;
     }
-
     .showcase {
         padding: 73px 10px 58px 20px;
     }
-
     .year {
         margin-left: 15px;
     }
@@ -823,7 +806,6 @@ textarea:focus {
         margin-left: auto;
         margin-right: auto;
     }
-
     .showcase {
         display: block;
         justify-content: flex-start;
@@ -835,11 +817,9 @@ textarea:focus {
         padding: 0px 10px 100px 35px;
         overflow: hidden;
     }
-
     .showcase-text {
         margin-top: 30px;
     }
-
     .year {
         margin-left: 15px;
         margin-bottom: -15px;
@@ -890,7 +870,6 @@ textarea:focus {
     footer {
         margin-bottom: 80px;
     }
-
     .showcase {
         display: block;
         justify-content: flex-start;
@@ -902,33 +881,26 @@ textarea:focus {
         padding: 50px 5px 50px 10px;
         height: auto;
         overflow: hidden;
-        
     }
-
     .showcase-text {
         margin-top: 30px;
     }
-
     .year {
         margin-left: 15px;
         margin-bottom: -15px;
     }
-
     .logo-lg-md {
         display: none;
     }
-
     .resume-bg {
         background-color: #f8f8f8;
         height: 20%;
         padding: 25px 32px 25px 25px;
         margin: 30px 15px -20px 12px;
     }
-
     .footer {
         padding-left: 20px;
     }
-
     .float-navbar {
         grid-template-columns: auto;
         position: fixed;
@@ -940,19 +912,15 @@ textarea:focus {
         transition-timing-function: ease-in;
         box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.03);
     }
-
     .content-fix {
         padding-top: 70px;
     }
-
     .project-links {
         margin-top: 35px;
     }
-
     .fix {
         margin-top: 20px;
     }
-
     .navbar-nav {
         display: table;
         padding-left: 0;
@@ -965,11 +933,9 @@ textarea:focus {
     .nav-logo {
         width: 40%;
     }
-
     .badge {
         margin-left: 0px;
     }
-
     .intro-container {
         margin-left: -2px;
         margin-right: -2px;

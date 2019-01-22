@@ -242,10 +242,28 @@
 
 
           </div>
+
         </div>
       </div>
     </div>
   </div>
+
+  <div class="intro-container">
+    <a onclick="topFunction()" title="Go to top"> <img src="top.svg" id="myBtn" alt="back to top" class="src"></a>
+
+    <div class="row">
+      <div class="col-12 text-center heading-fix">
+        <h2>Have a project you want me to work on?</h2>
+
+        <h5 class="">Shoot a mail to</h5>
+        <p class="desc"><a class="link copy-click" href="" data-tooltip-text="Click to copy email"
+            data-tooltip-text-copied="🖐 Copied to clipboard">badaraolawale@gmail.com</a></p>
+
+      </div>
+
+    </div>
+  </div>
+
   <!-- end of content -->
 
 
@@ -328,6 +346,28 @@
       });
     });
   </script>
+
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
   <script>
     // Look for .hamburger
     var hamburger = document.querySelector(".hamburger");
