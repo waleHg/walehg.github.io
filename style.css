@@ -134,7 +134,7 @@ textarea:focus {
     display: flex;
     position: fixed;
     bottom: 75px;
-    right: 30px;
+    right: 10px;
     /* z-index: 99; */
     font-size: 18px;
     border: none;
