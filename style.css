@@ -5,8 +5,8 @@ html {
 /* Normal */
 
 @font-face {
-    font-family: 'Cera';
-    src: url('Cera-Regular.ttf') format('truetype');
+    font-family: 'CerebriSans';
+    src: url('CerebriSans-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -15,15 +15,15 @@ html {
 /* Bold */
 
 @font-face {
-    font-family: 'Cera';
-    src: url('Cera-Bold.ttf') format('truetype');
+    font-family: 'CerebriSans';
+    src: url('CerebriSans-Bold.ttf') format('truetype');
     font-style: normal;
     font-weight: bold;
     text-rendering: optimizeLegibility;
 }
 
 body {
-    font-family: 'Cera', sans-serif;
+    font-family: 'CerebriSans', Arial, Helvetica, sans-serif;
     color: #404040;
 }
 
@@ -623,7 +623,7 @@ textarea:focus {
     background: #2196F3;
     text-align: center;
     color: #fff;
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 12px;
 }
 
@@ -646,7 +646,7 @@ textarea:focus {
     font-weight: 400;
     font-style: normal;
     margin-bottom: 20px;
-    color: #2196F3;
+    color: rgb(52, 53, 54);
 }
 
 .row .roboto {
