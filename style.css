@@ -28,7 +28,7 @@ body {
 }
 
 blockquote {
-    color: #637381;
+    color: rgb(52, 53, 54);
     font-size: 18px;
     margin-left: 20px;
 }
@@ -648,6 +648,7 @@ textarea:focus {
     margin-bottom: 20px;
     color: rgb(52, 53, 54);
 }
+
 .row .roboto {
     padding-top: 50px;
 }
@@ -664,7 +665,6 @@ textarea:focus {
 .row .work-sans {
     padding-top: 50px;
 }
-
 
 .showcase {
     /* display: flex;
@@ -704,13 +704,21 @@ textarea:focus {
 @media only screen and (width: 1024px) {
     .text-content {
         color: #404040;
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 5%;
+        padding-right: 5%;
         line-height: 30px;
     }
     .showcase {
         margin-left: 10%;
         margin-right: 10%;
+    }
+    .work-sans {
+        font-size: 48px;
+        font-family: "Work Sans";
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 20px;
+        color: rgb(52, 53, 54);
     }
 }
 
@@ -734,7 +742,7 @@ textarea:focus {
     .showcase-text {
         margin-top: 30px;
     }
-    .resume-bg{
+    .resume-bg {
         padding: 25px 12px 15px 25px;
     }
 }
@@ -776,7 +784,6 @@ textarea:focus {
     .row .roboto {
         padding-top: 30px;
     }
-  
     .item {
         grid-row-end: span 2;
     }

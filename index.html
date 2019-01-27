@@ -60,7 +60,7 @@
 </head>
 
 <body>
-  
+
 
   <!-- navbar -->
   <nav class="float-navbar navbar navbar-expand-lg navbar-light bg-light">
@@ -103,9 +103,9 @@
       <div class="col-lg-6 col-md-6 col-sm-12 fade-in-top">
 
         <h2 class="intro-h2">Hi, I'm Olawale.
-   I design valuable digital products that solve problems and people love to use.</h2>
+          I design valuable digital products that solve problems and people love to use.</h2>
         <p class="desc">I currently work as a User
-            Experience Designer</a> at <a class="link" href="https://cchubnigeria.com" target="_blank">Co-Creation Hub
+          Experience Designer</a> at <a class="link" href="https://cchubnigeria.com" target="_blank">Co-Creation Hub
             Nigeria.</a></p>
 
       </div>
@@ -128,7 +128,7 @@
     <div class="row">
       <div class="col-12">
         <p class="desc heading">PROJECTS</p>
-        
+
       </div>
     </div>
     <div class="grid">
@@ -237,7 +237,8 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 fade-in-top">
           <h5 class="footer-heading">Contact Me</h5>
-          <p class="desc"><a class="link copy-click" href="" data-tooltip-text="Click on email to copy" data-tooltip-text-copied="🖐 Copied to clipboard">badaraolawale@gmail.com</a></p>
+          <p class="desc"><a class="link copy-click" href="" data-tooltip-text="Click on email to copy"
+              data-tooltip-text-copied="🖐 Copied to clipboard">badaraolawale@gmail.com</a></p>
 
           <h5 class="footer-heading footer-margin">Connect</h5>
           <p class="desc"><a class="link" href="https://twitter.com/walehg" target="_blank"><i class="fab fa-twitter"></i></a><a
@@ -271,44 +272,45 @@
 
 
   <script>const links = document.querySelectorAll('.copy-click');
-      const cls = {
-        copied: 'is-copied',
-        hover: 'is-hovered' };
-      
-      
-      const copyToClipboard = str => {
-        const el = document.createElement('input');
-        str.dataset.copyString ? el.value = str.dataset.copyString : el.value = str.text;
-        el.setAttribute('readonly', '');
-        el.style.position = 'absolute';
-        el.style.opacity = 0;
-        document.body.appendChild(el);
-        el.select();
-        document.execCommand('copy');
-        document.body.removeChild(el);
-      };
-      
-      const clickInteraction = e => {
-        e.preventDefault();
-        copyToClipboard(e.target);
-        e.target.classList.add(cls.copied);
-        setTimeout(() => e.target.classList.remove(cls.copied), 1000);
-        setTimeout(() => e.target.classList.remove(cls.hover), 700);
-      };
-      
-      Array.from(links).forEach(link => {
-        link.addEventListener('click', e => clickInteraction(e));
-        link.addEventListener('keypress', e => {
-          if (e.keyCode === 13) clickInteraction(e);
-        });
-        link.addEventListener('mouseover', e => e.target.classList.add(cls.hover));
-        link.addEventListener('mouseleave', e => {
-          if (!e.target.classList.contains(cls.copied)) {
-            e.target.classList.remove(cls.hover);
-          }
-        });
+    const cls = {
+      copied: 'is-copied',
+      hover: 'is-hovered'
+    };
+
+
+    const copyToClipboard = str => {
+      const el = document.createElement('input');
+      str.dataset.copyString ? el.value = str.dataset.copyString : el.value = str.text;
+      el.setAttribute('readonly', '');
+      el.style.position = 'absolute';
+      el.style.opacity = 0;
+      document.body.appendChild(el);
+      el.select();
+      document.execCommand('copy');
+      document.body.removeChild(el);
+    };
+
+    const clickInteraction = e => {
+      e.preventDefault();
+      copyToClipboard(e.target);
+      e.target.classList.add(cls.copied);
+      setTimeout(() => e.target.classList.remove(cls.copied), 1000);
+      setTimeout(() => e.target.classList.remove(cls.hover), 700);
+    };
+
+    Array.from(links).forEach(link => {
+      link.addEventListener('click', e => clickInteraction(e));
+      link.addEventListener('keypress', e => {
+        if (e.keyCode === 13) clickInteraction(e);
       });
-      </script>
+      link.addEventListener('mouseover', e => e.target.classList.add(cls.hover));
+      link.addEventListener('mouseleave', e => {
+        if (!e.target.classList.contains(cls.copied)) {
+          e.target.classList.remove(cls.hover);
+        }
+      });
+    });
+  </script>
   <script>
     // Look for .hamburger
     var hamburger = document.querySelector(".hamburger");
@@ -319,7 +321,7 @@
       // Do something else, like open/close menu
     });
   </script>
- <!-- end of copy to clipboard -->
+  <!-- end of copy to clipboard -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
