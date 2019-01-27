@@ -648,10 +648,23 @@ textarea:focus {
     margin-bottom: 20px;
     color: rgb(52, 53, 54);
 }
-
 .row .roboto {
     padding-top: 50px;
 }
+
+.work-sans {
+    font-size: 80px;
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+    color: rgb(52, 53, 54);
+}
+
+.row .work-sans {
+    padding-top: 50px;
+}
+
 
 .showcase {
     /* display: flex;
@@ -753,9 +766,17 @@ textarea:focus {
         font-style: normal;
         margin-bottom: 5px;
     }
+    .work-sans {
+        font-size: 50px;
+        font-family: "work sans";
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 5px;
+    }
     .row .roboto {
         padding-top: 30px;
     }
+  
     .item {
         grid-row-end: span 2;
     }
