@@ -70,7 +70,7 @@ ul li {
     font-weight: 600;
 }
 
-li.active > a::after {
+li.active>a::after {
     content: '';
     display: inline-block;
     border: 3px solid #FED100;
@@ -929,13 +929,14 @@ textarea:focus {
     .logo-sm {
         display: none;
     }
-   
+
 }
 
 @media only screen and (max-width: 574px) {
     footer {
         margin-bottom: 80px;
     }
+
     .desc {
         font-size: 16px;
         color: #404040;
