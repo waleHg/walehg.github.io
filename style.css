@@ -227,7 +227,7 @@ textarea:focus {
 .btn:hover {
     color: #FFFFFF !important;
     background-color: #404040 !important;
-    transform: translateY(20%);
+    transform: translateY(10%);
     transition: 0.25s ease-in;
 }
 
