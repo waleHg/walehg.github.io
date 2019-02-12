@@ -137,6 +137,14 @@ textarea:focus {
     outline: 0px !important;
 }
 
+::-moz-selection {
+    color: #fde25bb9
+}
+
+::selection {
+    background-color: #fde25bb9;
+}
+
 #contact {
     transition: transform 0.7s ease-in-out, -webkit-transform 0.7s ease-in-out;
 }
