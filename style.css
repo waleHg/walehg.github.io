@@ -452,12 +452,12 @@ textarea:focus {
 
 .item--large {
     background-image: url('halawee.png');
-    grid-row-end: span 3;
+    grid-row-end: span 2;
 }
 
 .item--largeb {
     background-image: url('ownerdirect.png');
-    grid-row-end: span 3;
+    grid-row-end: span 2;
 }
 
 .item--full {
