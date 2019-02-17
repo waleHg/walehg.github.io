@@ -154,7 +154,7 @@ textarea:focus {
     position: fixed;
     bottom: 75px;
     right: 10px;
-    /* z-index: 99; */
+    z-index: 99;
     font-size: 18px;
     border: none;
     outline: none;
