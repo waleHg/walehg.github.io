@@ -424,6 +424,7 @@ textarea:focus {
     transition: transform 0.7s ease-in-out, -webkit-transform 0.7s ease-in-out;
     cursor: pointer;
     grid-row-end: span 2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.017);
 }
 
 .item:hover {
@@ -441,6 +442,7 @@ textarea:focus {
 .item--mediuma {
     background-image: url('thumb.png');
     grid-row-end: span 2;
+    
 }
 
 .item--medium {
