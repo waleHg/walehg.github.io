@@ -170,6 +170,23 @@ textarea:focus {
 }
 .p-role{
     margin-top: -10px;
+   
+}
+.p-role-sub{
+    opacity: 0.8;
+    font-size: 14px;
+    margin-top: -15px;
+    text-align: left;
+ 
+}
+.p-highlight{
+    color: #637381;
+    font-weight: bold;
+}
+.mute{
+     color: #637381;
+     font-size: 16px;
+     text-align: left;
 }
 
 /* 
@@ -243,14 +260,14 @@ textarea:focus {
     border: none !important;
     padding: 15px !important;
     background-position: 0 88%;
-    transition: 0.25s ease-in;
+    transition: 0.8s ease-in-out;
 }
 
 .btn:hover {
     color: #FFFFFF !important;
     background-color: #404040 !important;
     transform: translateY(10%);
-    transition: 0.25s ease-in;
+    transition: 0.5s ease-in-out;
 }
 
 .error {
@@ -625,8 +642,8 @@ textarea:focus {
 
 .intro-container {
     margin-top: 40px;
-    margin-left: 130px;
-    margin-right: 130px;
+    margin-left: 120px;
+    margin-right: 120px;
     background-size: cover;
     background-position: center;
 }
@@ -743,7 +760,6 @@ textarea:focus {
     height: 490px;
     background-color: #e5e5e5;
     border-radius: 21px;
-    background-image: url(g.svg);
     background-size: 100%;
     -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
@@ -755,7 +771,6 @@ textarea:focus {
     bottom: 0;
     left: 5%;
     background-color: #e5e5e5;
-    background-image: url(h.svg);
     background-size: 100%;
 }
 
@@ -885,8 +900,8 @@ textarea:focus {
     }
 
     .first-text-content {
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
 
@@ -1113,6 +1128,7 @@ textarea:focus {
 
 @media only screen and (max-width: 574px) {
 
+    
     .grid {
 
         grid-template-columns: none !important;
