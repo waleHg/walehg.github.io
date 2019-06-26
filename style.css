@@ -556,7 +556,9 @@ textarea:focus {
     margin-bottom: 10px;
     text-align: center;
 }
-
+.carousel-fix{
+    margin-top: 150px;
+}
 .carousel-control-prev-icon {
     background-image: url(prev.svg) !important;
 }
@@ -569,6 +571,7 @@ textarea:focus {
 .carousel-control-prev-icon {
     height: 40px;
     width: 40px;
+    opacity: 0.5;
 }
 
 .carousel-control-next,
@@ -736,7 +739,7 @@ textarea:focus {
     font-family: "Roboto";
     font-weight: 400;
     font-style: normal;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     color: rgb(52, 53, 54);
 }
 
@@ -991,7 +994,7 @@ textarea:focus {
         -webkit-transform: rotate(30deg);
         transform: rotate(20deg);
     }
-    
+
     .heading-fix {
         padding-top: 30px;
     }
@@ -1143,6 +1146,10 @@ textarea:focus {
     .project-links {
         margin-top: 0px;
     }
+    #read{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
 }
 
 /* @media only screen and (min-width: 1026px) and (max-width: 1452px){
@@ -1182,8 +1189,9 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 574px) {
-
-
+    .carousel-fix{
+        margin-top: 65px;
+    }
     .grid {
 
         grid-template-columns: none !important;
