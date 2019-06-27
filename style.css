@@ -1166,6 +1166,10 @@ textarea:focus {
         padding-left: 70px;
         padding-right: 70px;
     }
+    .mb-5, .my-5 {
+        margin-bottom: 3rem!important;
+        margin-top: 7em !important;
+    }
 }
 
 /* @media only screen and (min-width: 1026px) and (max-width: 1452px){
@@ -1289,7 +1293,7 @@ textarea:focus {
     }
 
     .content-fix {
-        padding-top: 70px;
+        padding-top: 40px;
     }
 
     .project-links {
