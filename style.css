@@ -900,6 +900,23 @@ textarea:focus {
 }
 
 @media only screen and (width: 1024px) {
+    .product-device-lg-2 {
+        top: 24%;
+        right: auto;
+        bottom: 0;
+        left: -22%;
+        background-size: 100%;
+    }
+    .product-device-lg {
+        position: absolute;
+        right: -7%;
+        bottom: -60%;
+        width: 450px;
+        height: 500px;
+        background-size: 100%;
+        -webkit-transform: rotate(30deg);
+        transform: rotate(20deg);
+    }
     .text-content {
         color: #404040;
         /* padding-left: 5%;
@@ -941,6 +958,7 @@ textarea:focus {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1452px) {
+    
     .text-content {
         color: #404040;
         padding-left: 15%;
@@ -1116,7 +1134,9 @@ textarea:focus {
 @media only screen and (min-width: 766px)and (max-width: 769px) {
 
     .product-device,
-    .product-device-2 {
+    .product-device-2,
+    .product-device-lg,
+    .product-device-lg-2{
         display: none !important;
     }
 
