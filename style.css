@@ -288,7 +288,8 @@ textarea:focus {
     /* border-bottom: 0.75px solid #FED100; */
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
     width: 100%;
-    /* z-index: 2000; */
+    z-index: 10;
+    position: fixed;
 }
 
 .navbar-light .navbar-toggler {
@@ -556,9 +557,16 @@ textarea:focus {
     margin-bottom: 10px;
     text-align: center;
 }
-.carousel-fix{
+
+.case-intro {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.carousel-fix {
     margin-top: 150px;
 }
+
 .carousel-control-prev-icon {
     background-image: url(prev.svg) !important;
 }
@@ -843,6 +851,9 @@ textarea:focus {
     padding-right: 10rem !important;
 }
 
+.m-md-3 {
+    margin: 0 2rem 2rem!important;
+}
 
 /* end of souble style */
 
@@ -983,7 +994,7 @@ textarea:focus {
         left: -35%;
         background-size: 100%;
     }
-    
+
     .product-device-lg {
         position: absolute;
         right: -30%;
@@ -1146,7 +1157,8 @@ textarea:focus {
     .project-links {
         margin-top: 0px;
     }
-    #read{
+
+    #read {
         padding-left: 70px;
         padding-right: 70px;
     }
@@ -1189,9 +1201,10 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 574px) {
-    .carousel-fix{
+    .carousel-fix {
         margin-top: 65px;
     }
+
     .grid {
 
         grid-template-columns: none !important;
