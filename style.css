@@ -309,6 +309,7 @@ textarea:focus {
 .content-fix {
     padding-top: 100px;
 }
+
 .home-fix {
     padding-top: 100px;
 }
@@ -855,7 +856,7 @@ textarea:focus {
 }
 
 .m-md-3 {
-    margin: 0 2rem 2rem!important;
+    margin: 0 2rem 2rem !important;
 }
 
 /* end of souble style */
@@ -1207,6 +1208,11 @@ textarea:focus {
     .m-md-3 {
         margin: 0 !important;
     }
+    .home-fix {
+        padding-top: 25px;
+    }
+
+
     .carousel-fix {
         margin-top: 65px;
     }
@@ -1284,9 +1290,6 @@ textarea:focus {
 
     .content-fix {
         padding-top: 70px;
-    }
-    .home-fix {
-        padding-top: 35px;
     }
 
     .project-links {
