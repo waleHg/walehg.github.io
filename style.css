@@ -309,6 +309,9 @@ textarea:focus {
 .content-fix {
     padding-top: 100px;
 }
+.home-fix {
+    padding-top: 100px;
+}
 
 .resume-bg {
     background-color: #fdfdfd;
@@ -1281,6 +1284,9 @@ textarea:focus {
 
     .content-fix {
         padding-top: 70px;
+    }
+    .home-fix {
+        padding-top: 30px;
     }
 
     .project-links {
