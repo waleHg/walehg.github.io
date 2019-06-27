@@ -1201,6 +1201,9 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 574px) {
+    .m-md-3 {
+        margin: 0 !important;
+    }
     .carousel-fix {
         margin-top: 65px;
     }
