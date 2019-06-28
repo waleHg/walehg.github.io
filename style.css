@@ -305,7 +305,9 @@ textarea:focus {
     margin-left: 2px;
     vertical-align: text-top;
 } */
-
+.font-weight-bold{
+    color: #27282c;
+}
 .content-fix {
     padding-top: 100px;
 }
