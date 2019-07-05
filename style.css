@@ -234,6 +234,7 @@ textarea:focus {
 }
 
 .intro-h2 {
+    color: #27282C;
     line-height: 150%;
     font-weight: 600;
 }
@@ -481,6 +482,25 @@ textarea:focus {
     cursor: pointer;
     grid-row-end: span 3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.017);
+
+}
+
+.item-disabled {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    color: #fff;
+    border-radius: 10px;
+    grid-column-start: auto;
+    grid-row-start: auto;
+    background-size: cover;
+    background-color: #27282C;
+    background-position: center;
+    transition: transform 0.7s ease-in-out, -webkit-transform 0.7s ease-in-out;
+    cursor: not-allowed;
+    grid-row-end: span 3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.017);
+    opacity: 0.2;
 
 }
 
