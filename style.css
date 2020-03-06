@@ -332,6 +332,7 @@ textarea:focus {
 .desc {
     font-size: 18px;
     color: #404040;
+ 
 }
 
 .desc a {
@@ -411,7 +412,7 @@ textarea:focus {
 .avatar {
     width: 150px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 100%;
     margin-bottom: 15px;
     /* -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);  */
